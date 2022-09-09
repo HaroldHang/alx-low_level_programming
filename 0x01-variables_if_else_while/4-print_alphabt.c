@@ -17,7 +17,7 @@ char letter;
 int i;
 char line;
 /* your code goes there */
-for(i = 0 ; i < 26; i++)
+for (i = 0 ; i < 26; i++)
 {
 letter = count;
 if( i == 4 || i == 16)
