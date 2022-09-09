@@ -6,8 +6,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
+ * main - Entry point
  * check if n is positive negative or null
+ * Return : always (0)
  */
 int main(void)
 {
