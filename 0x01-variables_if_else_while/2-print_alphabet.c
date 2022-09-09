@@ -15,17 +15,17 @@ int main(void)
 {
 int count  = 0x61;
 char letter;
-int i ;
+int i;
 char line;
 /* your code goes there */
 for (i = 0 ; i < 26; i++)
 {
-letter = count;
+letter=count;
 putchar(letter);
 count++;
 }
-count = 0x0a;
-line = count; 
+count=0x0a;
+line=count; 
 putchar(line);
 return (0);
 }
