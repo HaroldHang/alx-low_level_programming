@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+0;136;0c#include <time.h>
 #include <stdio.h>
 /* more headers goes there */
 
@@ -20,11 +20,11 @@ char line;
 for (i = 0 ; i < 26; i++)
 {
 letter = count;
-if(i == 4 || i == 16)
+if (i == 4 || i == 16)
 {
 count++;
 continue;
-}  
+}
 putchar(letter);
 count++;
 }
