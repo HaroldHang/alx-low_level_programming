@@ -16,6 +16,7 @@ int main(void)
 int count  = 0x61;
 char letter;
 int i ;
+char line;
 /* your code goes there */
 for (i = 0 ; i < 26; i++)
 {
@@ -23,6 +24,8 @@ letter = count;
 putchar(letter);
 count++;
 }
-putchar("\n");
+count = 0x0a;
+line = count; 
+putchar(line);
 return (0);
 }
