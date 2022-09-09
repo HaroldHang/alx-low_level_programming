@@ -1,5 +1,5 @@
 
-#include <stdlib.h>
+0;136;0c#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
@@ -31,7 +31,7 @@ int main(void)
 	}
 	else
 	{
-	  printf("Last digit %d is %d and is less than 6 and not 0\n", num, n);
+	  printf("Last digit of %d is %d and is less than 6 and not 0\n", num, n);
 	}
 	return (0);
 }
