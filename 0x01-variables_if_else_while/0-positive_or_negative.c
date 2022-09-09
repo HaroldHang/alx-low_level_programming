@@ -1,5 +1,5 @@
 
-#include <stdlib.h>
+0;136;0c#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
@@ -7,9 +7,10 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
- * check if n is positive negative or null
- * Return : always (0)
+ * Check if n is positive negative or null
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
