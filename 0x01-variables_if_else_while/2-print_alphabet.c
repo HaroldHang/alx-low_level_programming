@@ -24,7 +24,7 @@ putchar(letter);
 count++;
 }
 count = 0x0a;
-line = count; 
+line = count;
 putchar(line);
 return (0);
 }
