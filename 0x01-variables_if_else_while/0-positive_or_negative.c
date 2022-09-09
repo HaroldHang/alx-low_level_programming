@@ -5,6 +5,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - entry point
+ * check if n is positive negative or null
+ */
 int main(void)
 {
 	int n;
