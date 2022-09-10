@@ -19,7 +19,7 @@ int l;
 int m; 
 /* your code goes there */
 j = 49;
-l = 50;
+l = j++;
 for (i = 48 ; i < 56; i++)
 {
 for (k = j; k < 57; k++)
@@ -40,6 +40,7 @@ putchar(44);
 }
 l++;
 }
+l = j;
 j++;
 }
 putchar(0x0a);
