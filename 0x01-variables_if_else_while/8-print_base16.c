@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+0;136;0c#include <time.h>
 #include <stdio.h>
 /* more headers goes there */
 
@@ -17,11 +17,11 @@ char letter;
 int i;
 char line;
 /* your code goes there */
-for (i = 48 ; i < 57; i++)
+for (i = 48 ; i < 58; i++)
 {
 putchar(i);
 }
-for (i = 0 ; i < 5; i++)
+for (i = 0 ; i < 6; i++)
 {
 letter = count;
 putchar(letter);
