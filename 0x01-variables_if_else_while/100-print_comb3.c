@@ -21,13 +21,13 @@ for (i = 48 ; i < 57; i++)
 {
 for (k = j; k < 58; k++)
 {
-if (i > 48 && k > 49)
+if (i > 48)
 {
 putchar(32);
 }
 putchar(i);
 putchar(k);
-if (i < 56 && k < 57)
+if (i < 56)
 {
 putchar(44);
 }
