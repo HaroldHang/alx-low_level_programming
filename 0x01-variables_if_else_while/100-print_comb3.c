@@ -32,6 +32,7 @@ if (i < 56 && k < 57)
 putchar(44);
 }
 }
+j++;
 }
 putchar(0x0a);
 return (0);
