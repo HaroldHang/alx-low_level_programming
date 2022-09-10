@@ -16,14 +16,16 @@ int i;
 /* your code goes there */
 for (i = 48 ; i < 58; i++)
 {
-
+if (i > 48)
+{
 putchar(32);
-
+}
 putchar(i);
 if (i < 57)
 {
 putchar(44);
 }
 }
+putchar(0x0a);
 return (0);
 }
