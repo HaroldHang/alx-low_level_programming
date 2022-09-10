@@ -17,7 +17,7 @@ char letter;
 int i;
 char line;
 /* your code goes there */
-for (i = 0 ; i < 10; i++)
+for (i = 48 ; i < 57; i++)
 {
 putchar(i);
 }
