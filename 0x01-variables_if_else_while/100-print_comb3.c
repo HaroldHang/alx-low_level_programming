@@ -13,11 +13,26 @@
 int main(void)
 {
 int i;
+int j;
+int k;
 /* your code goes there */
-for (i = 0 ; i < 10; i++)
+j = 49;
+for (i = 48 ; i < 57; i++)
 {
-printf("%d", i);
+for (k = j; k < 58; k++)
+{
+if (i > 48 && k > 49)
+{
+putchar(32);
 }
-printf("\n");
+putchar(i);
+putchar(k);
+if (i < 56 && k < 57)
+{
+putchar(44);
+}
+}
+}
+putchar(0x0a);
 return (0);
 }
