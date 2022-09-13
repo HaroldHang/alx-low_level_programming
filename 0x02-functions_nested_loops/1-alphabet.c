@@ -14,10 +14,6 @@ int i;
 int main(void)
 {
 /* your code goes there */
-for (i = 97; i <123; i++)
-{
-print_alphabet(i);
-}
-putchar(10);
+print_alphabet();
 return (0);
 }

@@ -1,5 +1,9 @@
 
-void print_alphabet(int letter)
+void print_alphabet(void)
 {
-putchar(letter);
+for (i = 97; i <123; i++)
+{
+putchar(i);
+}
+putchar(10);
 }
