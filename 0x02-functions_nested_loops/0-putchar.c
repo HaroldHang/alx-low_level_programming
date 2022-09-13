@@ -12,8 +12,7 @@
  */
 
 int main(void)
-{
-  
+{  
 /* your code goes there */
 put(95);
 put(112);
