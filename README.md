@@ -1,1 +1,1 @@
-C tasks repository
+0 - putchar
