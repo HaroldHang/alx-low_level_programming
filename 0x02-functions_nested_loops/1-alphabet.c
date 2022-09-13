@@ -7,10 +7,9 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
- * Print _putchar
+ * print_alphabet - print the alphabet in lowercase
  * Return: Always 0 (Success)
  */
-
 
 void print_alphabet(void)
 {
