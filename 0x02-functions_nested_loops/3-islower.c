@@ -4,7 +4,8 @@
 
 /* betty style doc for function main goes there */
 /**
- * islower - check if the given input is lowercase
+ * _islower - check if the given input is lowercase
+ *@c: the character to be checked
  * Return: Always 0 (Success)
  */
 int _islower(int c)
