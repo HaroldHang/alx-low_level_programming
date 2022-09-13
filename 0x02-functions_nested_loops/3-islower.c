@@ -14,4 +14,5 @@ return 0;
 } else if (islower(c) > 0) {
 return 1;
 }
+return 0;
 }
