@@ -15,15 +15,15 @@ int main(void)
 {
   
 /* your code goes there */
-_putchar(95);
-_putchar(112);
-_putchar(117);
-_putchar(116);
-_putchar(99);
-_putchar(104);
-_putchar(97);
-_putchar(114);
-_putchar(3);
+put(95);
+put(112);
+put(117);
+put(116);
+put(99);
+put(104);
+put(97);
+put(114);
+put(3);
 return (0);
 
 }

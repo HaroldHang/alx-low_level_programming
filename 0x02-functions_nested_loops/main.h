@@ -1,5 +1,5 @@
 
-void _putchar(int letter)
+void put(int letter)
 {
 putchar(letter);
 }
