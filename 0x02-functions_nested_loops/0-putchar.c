@@ -10,7 +10,6 @@
  * Print _putchar
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {  
 /* your code goes there */
