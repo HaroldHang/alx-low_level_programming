@@ -4,7 +4,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * print_alphabet_x10 - print 10 times the alphabet in lowercase
+ * islower - check if the given input is lowercase
  * Return: Always 0 (Success)
  */
 int _islower(int c)
