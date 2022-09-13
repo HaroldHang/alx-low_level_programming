@@ -23,7 +23,6 @@ put(99);
 put(104);
 put(97);
 put(114);
-put(3);
+put(10);
 return (0);
-
 }
