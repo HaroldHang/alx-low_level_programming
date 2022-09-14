@@ -39,5 +39,5 @@ _putchar(n + 48);
 _putchar(10);
 }
 }
-return (0);
+
 }
