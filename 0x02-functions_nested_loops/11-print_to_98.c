@@ -7,9 +7,10 @@
  *@n: Where to print ftom
  * Return: Always 0 (Success)
  */
+int i; 
+int k;
 void print_to_98(int n)
 {
-int i; int k;
 if (n <= 98)
 {
 for (i = n; i <= 98; i++)
@@ -20,7 +21,8 @@ _putchar(32);
 }
 if (i < 0)
 {
-_putchar(45); k = -(i);
+_putchar(45);
+k = -(i);
 }
 else
 {
@@ -38,7 +40,7 @@ else
 {
 for (i = n; i >= 98; i--)
 {
-if(i < n)
+if (i < n)
 {
 _putchar(32);
 }
