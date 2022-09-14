@@ -9,8 +9,7 @@
  */
 void print_to_98(int n)
 {
-int i;
-int k;
+int i; int k;
 if (n <= 98)
 {
 for (i = n; i <= 98; i++)
@@ -21,8 +20,7 @@ _putchar(32);
 }
 if (i < 0)
 {
-_putchar(45);
-k = -(i);
+_putchar(45); k = -(i);
 }
 else
 {
@@ -38,7 +36,20 @@ _putchar(10);
 }
 else
 {
-print_up_98(n);
+for (i = n; i >= 98; i--)
+{
+if(i < n)
+{
+_putchar(32);
+}
+print_num(i);
+if (i > 98)
+{
+_putchar(44);
+}
+}
+_putchar(10);
+}
 }
 
 /**
@@ -71,30 +82,5 @@ _putchar(num + 48);
 else
 {
 _putchar(num + 48);
-}
-}
-
-/**
- * print_up_98 - Print up 98
- *@s: Where to print ftom
- * Return: Always 0 (Success)
- */
-
-void print_up_98(int s)
-{
-int i;
-for (i = s; i >= 98; i--)
-{
-if (i < s)
-{
-_putchar(32);
-}
-print_num(i);
-if (i > 98)
-{
-_putchar(44);
-}
-}
-_putchar(10);
 }
 }

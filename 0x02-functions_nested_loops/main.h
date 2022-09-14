@@ -13,5 +13,4 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_num(int num);
-void print_up_98(int s);
 #endif
