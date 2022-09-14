@@ -35,6 +35,10 @@ _putchar(l + 48);
 k = k % 10;
 _putchar(k + 48);
 }
+else
+{
+_putchar(k + 48);
+}
 if (i < 98)
 {
 _putchar(44);
