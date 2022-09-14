@@ -54,7 +54,16 @@ if(i < n)
 {
 _putchar(32);
 }
-if (i >= 10)
+if (i >= 100)
+{
+l = i / 10;
+k = l % 10;
+l = l / 10;
+_putchar(l + 48);
+_putchar(k + 48);
+k = i % 10;
+_putchar(k + 48);
+} else if (i >= 10)
 {
 l = i / 10;
 _putchar(l + 48);
