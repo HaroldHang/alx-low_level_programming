@@ -17,11 +17,15 @@ for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 10; j++)
 {
+n = i * j;
 if (j > 0)
 {
 _putchar(32);
+if (n < 10)
+{
+_putchar(32);
 }
-n = i * j;
+}
 if (n >= 10)
 {
 k = n / 10;
