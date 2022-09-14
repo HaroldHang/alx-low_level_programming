@@ -38,20 +38,7 @@ _putchar(10);
 }
 else
 {
-for(i = n; i >= 98; i--)
-{
-if(i < n)
-{
-_putchar(32);
-}
-print_num(i);
-if (i > 98)
-{
-_putchar(44);
-}
-}
-_putchar(10);
-}
+print_up_98(n);
 }
 
 /**
@@ -84,5 +71,30 @@ _putchar(num + 48);
 else
 {
 _putchar(num + 48);
+}
+}
+
+/**
+ * print_up_98 - Print up 98
+ *@s: Where to print ftom
+ * Return: Always 0 (Success)
+ */
+
+void print_up_98(int s)
+{
+int i;
+for (i = s; i >= 98; i--)
+{
+if (i < s)
+{
+_putchar(32);
+}
+print_num(i);
+if (i > 98)
+{
+_putchar(44);
+}
+}
+_putchar(10);
 }
 }
