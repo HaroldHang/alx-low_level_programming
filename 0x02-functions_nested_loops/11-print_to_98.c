@@ -79,7 +79,7 @@ else if (num >= 10)
 l = num / 10;
 _putchar(l + 48);
 num = num % 10;
-_putchar(k + 48);
+_putchar(num + 48);
 }
 else
 {
