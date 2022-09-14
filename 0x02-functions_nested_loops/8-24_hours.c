@@ -36,7 +36,7 @@ k = j / 10;
 n = j % 10;
 _putchar(k + 48);
 _putchar(n + 48);
-_putchar(10)
+_putchar(10);
 }
 }
 return (0);
