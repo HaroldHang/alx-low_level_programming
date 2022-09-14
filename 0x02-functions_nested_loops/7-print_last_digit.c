@@ -14,7 +14,7 @@ if (n < 0)
 {
 n = - (n);
 }
-_putchar(n);
+_putchar(n + 48);
 return (n);
 return (0);
 }
