@@ -64,15 +64,15 @@ t = l % 10;
 l = l / 10;
 _putchar(l + 48);
 _putchar(t + 48);
-num = num % 10;
-_putchar(num + 48);
+t = num % 10;
+_putchar(t + 48);
 }
 else if (num >= 10)
 {
 l = num / 10;
 _putchar(l + 48);
-num = num % 10;
-_putchar(num + 48);
+t = num % 10;
+_putchar(t + 48);
 }
 else
 {
