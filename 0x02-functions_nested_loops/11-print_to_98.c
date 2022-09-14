@@ -7,9 +7,9 @@
  *@n: Where to print ftom
  * Return: Always 0 (Success)
  */
+void print_to_98(int n)
 int i; 
 int k;
-void print_to_98(int n)
 {
 if (n <= 98)
 {
@@ -28,11 +28,7 @@ else
 {
 k = i;
 }
-print_num(k);
-if (i < 98)
-{
-_putchar(44);
-}
+print_num(k, 1);
 }
 _putchar(10);
 }
@@ -44,11 +40,7 @@ if (i < n)
 {
 _putchar(32);
 }
-print_num(i);
-if (i > 98)
-{
-_putchar(44);
-}
+print_num(i, 0);
 }
 _putchar(10);
 }
@@ -57,10 +49,11 @@ _putchar(10);
 /**
  * print_num - Print num
  *@num: Where to print ftom
+ *@after: Where to print ftom
  * Return: Always 0 (Success)
  */
 
-void print_num(int num)
+void print_num(int num, int after)
 {
 int l;
 int t;
@@ -84,5 +77,21 @@ _putchar(num + 48);
 else
 {
 _putchar(num + 48);
+}
+if (after == 1)
+{
+if (num < 98)
+{
+_putchar(44);
+}
+}
+else
+{
+if (after == 0)
+{
+if (num > 98)
+{
+_putchar(44);
+}    
 }
 }
