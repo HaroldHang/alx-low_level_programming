@@ -12,11 +12,12 @@ void print_to_98(int n)
 int i;
 int k;
 int l;
+int t;
 if (n <= 98)
 {
-for(i = n; i <= 98; i++)
+for (i = n; i <= 98; i++)
 {
-if(i > n)
+if (i > n)
 {
 _putchar(32);
 }
@@ -28,7 +29,17 @@ else
 {
 k = i;
 }
-if (k >= 10)
+if (k >= 100)
+{
+l = k / 10;
+t = l % 10;
+l = l / 10;
+_putchar(l + 48);
+_putchar(t + 48);
+k = k % 10;
+_putchar(k + 48);
+}
+else if (k >= 10)
 {
 l = k / 10;
 _putchar(l + 48);
