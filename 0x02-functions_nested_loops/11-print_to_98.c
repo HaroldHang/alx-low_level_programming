@@ -40,12 +40,13 @@ if (i < 98)
 _putchar(44);
 }
 }
+_putchar(10);
 }
 else
 {
 for(i = n; i >= 98; i--)
 {
-if(i > n)
+if(i < n)
 {
 _putchar(32);
 }
@@ -61,5 +62,6 @@ if (i > 98)
 _putchar(44);
 }
 }
+_putchar(10);
 }
 }
