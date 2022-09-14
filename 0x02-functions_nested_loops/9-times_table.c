@@ -20,7 +20,6 @@ for (j = 0; j < 10; j++)
 if (j > 0)
 {
 _putchar(32);
-_putchar(32);
 }
 n = i * j;
 if (n >= 10)
