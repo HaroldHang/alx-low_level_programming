@@ -15,7 +15,7 @@ for (i = 0; i <= 14; i++)
 {
 k = i / 10;
 m = i % 10;
-if (k > 0)
+if (i > 9)
 {
 _putchar(k + 48);
 _putchar(m + 48);
