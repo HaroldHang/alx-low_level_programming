@@ -17,9 +17,13 @@ k = i / 10;
 m = i % 10;
 if (k > 0)
 {
+_putchar(k + 48);
+_putchar(m + 48);
+}
+else
+{
 _putchar(i + 48);
 }
-_putchar(i + 48);
 }
 _putchar('\n');
 }
