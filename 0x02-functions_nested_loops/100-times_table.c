@@ -10,53 +10,39 @@
  */
 void print_times_table(int n)
 {
-if (n < 0 || n > 15)
-{
-printf("\n");
-}
-else
-{
 int i;
 int j;
 int k;
+int t;
+if (n > 0 && n < 15)
+{
 for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
 k = i * j;
-if (j == 0)
+if (j > 0)
 {
-printf("%i,", k);
+_putchar(32);
+if (k < 10)
+{
+_putchar(32);
 }
-else if (j == n)
-{
-if (k >= 100)
-{
-printf(" %i", k);
 }
-else if (k >= 10)
+if (k >= 10)
 {
-printf("  %i", k);
-}
-else
-{
-printf("   %i", k);
-}
+k = k / 10;
+_putchar(k + 48);
+t = t % 10;
+_putchar(t + 48);
 }
 else
 {
-if (k >= 100)
-{
-printf(" %i,", k);
+_putchar(n + 48);
 }
-else if (k >= 10)
+if (j < n)
 {
-printf("  %i,", k);
-}
-else
-{
-printf("   %i,", k);
-}
+_putchar(44);
 }
 }
 printf("\n");
