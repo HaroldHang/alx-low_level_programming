@@ -3,10 +3,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * print_most_numbers - print the numbers from 0 to 14 ten times
+ * more_numbers - print the numbers from 0 to 14 ten times
  * Return: Always 0 (Success)
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int i, k, m, j;
 for (j = 0; j <= 10; j++)
