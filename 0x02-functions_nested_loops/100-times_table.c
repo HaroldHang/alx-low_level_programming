@@ -24,24 +24,38 @@ for (i = 0; i <= n; i++)
 for (j = 0; j <= n; j++)
 {
 k = i * j;
-if (j == n)
+if (j == 0)
 {
-printf("%i", k);
+printf("%i,", k);
+}
+else if (j == n)
+{
+if (k >= 100)
+{
+printf(" %i", k);
+}
+else if (k >= 10)
+{
+printf("  %i", k);
+}
+else
+{
+printf("   %i", k);
+}
 }
 else
 {
 if (k >= 100)
 {
-printf("%i, ", k);
+printf(" %i,", k);
 }
 else if (k >= 10)
 {
-printf("%i,  ", k);
+printf("  %i,", k);
 }
 else
 {
-printf("%i,   ", k);
-
+printf("   %i,", k);
 }
 }
 }
