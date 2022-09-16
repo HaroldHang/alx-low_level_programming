@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
@@ -29,10 +28,10 @@ printf("Buzz");
 }
 else
 {
-printf("%i", i);
+printf("%d", i);
 }
 printf(" ");
 }
-
+printf('\n');
 return (0);
 }
