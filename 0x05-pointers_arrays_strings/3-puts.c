@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 /**
  * _puts - print string to stdout
  *@str: the pointer to the char
@@ -6,7 +6,5 @@
  */
 void _puts(char *str)
 {
-char *word;
-word = *str;
-puts(word);
+puts(str);
 }
