@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * _strlen - string size
  *@s: the pointer to the char
