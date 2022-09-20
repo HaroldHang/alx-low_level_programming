@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_array - Print half of string
  *@a: the array to pint
