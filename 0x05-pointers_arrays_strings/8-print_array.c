@@ -19,7 +19,7 @@ else
 {
 printf("%d, ", a[i]);
 }
-putchar('\n');
 }
+putchar('\n');
 }
 
