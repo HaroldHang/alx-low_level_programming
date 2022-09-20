@@ -18,5 +18,4 @@ s[count] = s[i];
 s[i] = temp;
 count--;
 }
-
 }
