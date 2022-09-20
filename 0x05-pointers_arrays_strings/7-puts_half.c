@@ -7,7 +7,7 @@
  */
 void puts_half(char *str)
 {
-int count = strlen(s) - 1;
+int count = strlen(str) - 1;
 int i;
 if (i % 2 == 0)
 i = count / 2;
