@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-int sign, num, minus, plus;
+int sign, num;
 sign = 1;
 num = atoi(s);
 if (num == 0)
@@ -18,12 +18,7 @@ while (*s != '\0')
 {
 if (*s == '-')
 {
-minus++;
-
-}
-else if (*s == '+')
-{
-plus++;
+sign = sign * (-1);
 }
 else if (*s >= '0' && *s <= '9')
 {
@@ -32,10 +27,6 @@ num = (num * 10) + *s - '0';
 else if (num > 0)
 {
 break;
-}
-if (minus > plus)
-{
-sign = - 1;
 }
 s++;
 }
