@@ -12,7 +12,8 @@ int _atoi(char *s)
 int sign, num;
 sign = 1;
 num = atoi(s);
-if (num == 0) {
+if (num == 0)
+{
 while (*s != '\0')
 {
 if (*s == '-')
@@ -29,7 +30,8 @@ break;
 }
 s++;
 }
-return (num * sign);
+num = num * sign;
+return (num);
 }
 else
 {
