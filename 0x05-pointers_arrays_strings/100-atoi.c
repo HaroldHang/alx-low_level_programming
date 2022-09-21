@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 int sign = 1;
 int num;
-num = atoi(*s);
+num = atoi(s);
 if (num == 0) {
 while (*s != '\0')
 {
