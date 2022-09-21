@@ -9,7 +9,8 @@
 
 int _atoi(char *s)
 {
-int sign = 1;
+int sign;
+sign = 1;
 int num;
 num = atoi(s);
 if (num == 0) {
@@ -25,7 +26,7 @@ num = (num * 10) + *s - '0';
 }
 s++;
 }
-return (num);
+return (num * sign);
 }
 else
 {
