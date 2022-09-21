@@ -15,13 +15,17 @@ num = atoi(s);
 if (num == 0) {
 while (*s != '\0')
 {
-if (*s == '-')
+if (*s == '-' && *(s + 1) >= '0')
 {
 sign = -1;
 }
 else if (*s >= '0' && *s <= '9')
 {
 num = (num * 10) + *s - '0';
+}
+else if (num > 0)
+{
+break;
 }
 s++;
 }
