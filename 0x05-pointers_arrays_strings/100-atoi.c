@@ -30,7 +30,7 @@ break;
 }
 s++;
 }
-num = num * sign;
+num = num *sign;
 return (num);
 }
 else
