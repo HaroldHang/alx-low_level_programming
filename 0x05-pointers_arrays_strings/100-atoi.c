@@ -9,9 +9,8 @@
 
 int _atoi(char *s)
 {
-int sign;
+int sign, num;
 sign = 1;
-int num;
 num = atoi(s);
 if (num == 0) {
 while (*s != '\0')
