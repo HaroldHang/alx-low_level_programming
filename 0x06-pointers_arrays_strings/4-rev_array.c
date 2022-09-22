@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 /**
- * reverse_array - string compare
- *@a: array of string
- *@n: against string to compare
+ * reverse_array - array reverse
+ *@a: array of elements
+ *@n: number of element
  * Return: Always 0 (Success)
  */
-
 void reverse_array(int *a, int n)
 {
 int count, temp, i, j;
@@ -27,3 +25,4 @@ a[j] = temp;
 j--;
 }
 }
+
