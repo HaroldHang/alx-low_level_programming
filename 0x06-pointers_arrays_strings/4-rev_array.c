@@ -10,7 +10,7 @@ void reverse_array(int *a, int n)
 int count, temp, i, j;
 if ((n % 2) == 0)
 {
-count = n / 2 ;
+count = n / 2;
 }
 else
 {
