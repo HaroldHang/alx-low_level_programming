@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int delemiters(char c);
 
 /**
@@ -12,7 +11,7 @@ char *cap_string(char *s)
 char *temp = s;
 while (*s)
 {
-if (delemiters(*s) && (*(s + 1) >= 'a' && *(s + 1) <= 'z'))
+if ( delemiters(*s) && ((*(s + 1) >= 'a') && (*(s + 1) <= 'z')) )
 {
 *(s + 1) = *(s + 1) - 32;
 }
