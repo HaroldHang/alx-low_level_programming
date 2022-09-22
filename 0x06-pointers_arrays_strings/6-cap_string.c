@@ -9,6 +9,8 @@ int delemiters(char c);
 char *cap_string(char *s)
 {
 char *temp = s;
+if (*(s + 0) >= 'a' && *(s + 0) <= 'z' )
+*(s + 0) = *(s + 0) - 32;
 while (*s)
 {
 if ( delemiters(*s) && ((*(s + 1) >= 'a') && (*(s + 1) <= 'z')) )
