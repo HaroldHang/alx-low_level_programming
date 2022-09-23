@@ -31,7 +31,7 @@ return (temp);
 int delemiters(char c)
 {
 int i;
-char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?','"', '(', ')', '{', '}' };
+char seperators[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?','"', '(', ')', '{', '}'};
 for (i = 0; i < 13; i++)
 {
 if (c == seperators[i])
