@@ -8,7 +8,7 @@ char *leet(char *s)
 {
 char *temp = s;
 int i;
-char letters[5] = {'A' , 'B', 'O', 'T', 'L'};
+char letters[5] = {'A' , 'E', 'O', 'T', 'L'};
 char numbers[5] = {'4' , '3', '0', '7', '1'};
 while (*s)
 {
