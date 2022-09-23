@@ -1,5 +1,4 @@
 #include <stdio.h>
-int delemiters(char c);
 
 /**
  * cap_string - string capitalization
@@ -9,7 +8,7 @@ int delemiters(char c);
 char *cap_string(char *s)
 {
 char *temp = s;
-if (*(s + 0) >= 'a' && *(s + 0) <= 'z' )
+if ((*(s + 0) >= 'a') && (*(s + 0) <= 'z'))
 *(s + 0) = *(s + 0) - 32;
 while (*s)
 {
