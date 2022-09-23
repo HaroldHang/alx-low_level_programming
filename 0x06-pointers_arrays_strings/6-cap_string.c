@@ -1,4 +1,5 @@
 #include <stdio.h>
+int delemiters(char c);
 
 /**
  * cap_string - string capitalization
