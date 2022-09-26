@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * leet - mozart function
+ * leet-mozart function
  *@s: string to transform
  * Return: Always 0 (Success)
  */
