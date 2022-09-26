@@ -12,7 +12,7 @@ for (i = 0; i < 8; i++)
 {
 for (j = 0; i < 8; j++)
 {
-putchar('%c', a[i][j]);
+putchar(a[i][j]);
 }
 putchar('\n');
 }
