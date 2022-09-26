@@ -9,6 +9,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-memcpy(dest, src, n);
-return (dest);
+char *r;
+r = memcpy(dest, src, n);
+return (r);
 }
