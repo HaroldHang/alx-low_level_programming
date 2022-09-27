@@ -8,17 +8,22 @@
  */
 void print_diagsums(int *a, int size)
 {
-int i, posLeft, posRight, sumLeft, sumRight;
+int i, j, posLeft, posRight, sumLeft, sumRight;
 posLeft = 0;
-posRight = size - 1;
+posRight = 0;
 sumLeft = 0;
 sumRight = 0;
-for (i = 0; i < size; i++)
+j = size * size;
+for (i = 0; i < j; i++)
 {
-sumLeft += a[posLeft][posLeft];
-sumRight += a[posRight][posRight];
+if ((i % size) == 0) {
+sumLeft += a[i + posLeft];
 posLeft++;
-posRight--;
 }
-printf("%d, %d", sumLeft, sumRight);
+if (((i + 1 ) % size) == 0) {
+sumRight += a[i - posRight];
+posRight++;
+}
+}
+printf("%d, %d\n", sumLeft, sumRight);
 }
