@@ -22,7 +22,7 @@ int check_prime(int number, int start)
 if (start == 1)
 return (1);
 else if ((number % start) == 0)
-return (0)
+return (0);
 else
 return (check_prime(number, start - 1));
 }
