@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
+int _sqrt(int num, int checker);
 /**
  *_sqrt_recursion - square root
  *@n: the number
  * Return: Always 0 (Success)
  */
-int _sqrt(int num, int checker);
 int _sqrt_recursion(int n)
 {
 if (n < 0)
@@ -26,7 +26,7 @@ int numEqual = checker * checker;
 if (numEqual > num)
 return (-1);
 else if (numEqual < num)
-return _sqrt(num, checker + 1);
+return (_sqrt(num, checker + 1));
 else
-return checker;
+return (checker);
 }
