@@ -8,6 +8,9 @@ int check_prime(int number, int start);
  */
 int is_prime_number(int n)
 {
+if (n == 1)
+return (1);
+else
 return (check_prime(n, n - 1));
 }
 
