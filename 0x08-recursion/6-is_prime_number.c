@@ -8,15 +8,15 @@ int check_prime(int number, int start);
  */
 int is_prime_number(int n)
 {
-if (n == 1)
-return (1);
+if (n <= 1)
+return (0);
 else
 return (check_prime(n, n - 1));
 }
 
 /**
  *check_prime - performs the prime checks
- *@number: the number to check 
+ *@number: the number to check
  *@start: the start number
  * Return: Always 0 (Success)
  */
