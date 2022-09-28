@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 /**
  *_pow_recursion - power of x by y
  *@x: the first number
