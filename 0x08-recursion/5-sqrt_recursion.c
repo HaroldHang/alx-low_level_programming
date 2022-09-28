@@ -5,6 +5,7 @@
  *@n: the number
  * Return: Always 0 (Success)
  */
+int _sqrt(int num, int checker);
 int _sqrt_recursion(int n)
 {
 if (n < 0)
@@ -13,6 +14,12 @@ else
 return (_sqrt(n, 1));
 }
 
+/**
+ *_sqrt - performs square root
+ *@num: the number to check square
+ *@checker: the start number
+ * Return: Always 0 (Success)
+ */
 int _sqrt(int num, int checker)
 {
 int numEqual = checker * checker;
