@@ -9,14 +9,17 @@
  */
 int main (int argc, char *argv[])
 {
-int argCount = argc - 1;
+int argCount;
+argCount = argc - 1;
 if (argCount != 2)
 {
 printf("Error\n");
 return (1);
 }
 int mul;
-mul = atoi(argv[1]) * atoi(argv[2]);
+int a = atoi(argv[1]);
+int b = atoi(argv[2]);
+mul = a * b;
 printf("%d\n", mul);
 return (0);
 }
