@@ -30,11 +30,11 @@ return (0);
 }
 void _puts(char *s)
 {
-return (0);
+
 }
 char *_strcpy(char *dest, char *src)
 {
-return (0);
+return ('a');
 }
 int _atoi(char *s)
 {
