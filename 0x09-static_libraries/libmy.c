@@ -42,15 +42,15 @@ return (0);
 }
 char *_strcat(char *dest, char *src)
 {
-return (0);
+return ('a');
 }
 char *_strncat(char *dest, char *src, int n)
 {
-return (0);
+return ('a');
 }
 char *_strncpy(char *dest, char *src, int n)
 {
-return (0);
+return ('a');
 }
 int _strcmp(char *s1, char *s2)
 {
