@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - prints the multiplication
  * @argc: The number of arguments supplied to the program
@@ -16,7 +16,7 @@ printf("Error\n");
 return (1);
 }
 int mul;
-mul = argv[1] + argv[2];
+mul = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", mul);
 return (0);
 }
