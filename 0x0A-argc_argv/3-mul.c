@@ -16,10 +16,10 @@ if (argCount != 2)
 printf("Error\n");
 return (1);
 }
-int mul;
+int prod;
 int a = atoi(argv[1]);
 int b = atoi(argv[2]);
-mul = a * b;
-printf("%d\n", mul);
+prod = a * b;
+printf("%d\n", prod);
 return (0);
 }
