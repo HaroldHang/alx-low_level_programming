@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array  
+ * create_array - create an array
  * @size: the size of array to create and return a pointer
  * @c: char to fill array with.
  *
@@ -13,17 +13,17 @@ char *create_array(unsigned int size, char c)
 char *s;
 unsigned int i;
 s = malloc(sizeof(char) * size);
-if (size <= 0)
+if (size <= 0 || s == NULL)
 {
-return NULL;
+return (NULL);
 }
 else
 {
 while (i < size)
 {
-*(s + i) = c + i;
+*(s + i) = c ;
 i++;
 }
-return  s;
+return  (s);
 }
 }
