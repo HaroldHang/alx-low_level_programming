@@ -21,7 +21,7 @@ else
 {
 while (i < size)
 {
-*(s + i) = c ;
+s[i] = c;
 i++;
 }
 return  (s);
