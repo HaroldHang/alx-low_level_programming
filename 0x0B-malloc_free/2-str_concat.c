@@ -12,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 {
 char *s;
 s = malloc(sizeof(s1) + sizeof(s2));
-if (|| s == NULL)
+if (s == NULL)
 {
 return (NULL);
 }
