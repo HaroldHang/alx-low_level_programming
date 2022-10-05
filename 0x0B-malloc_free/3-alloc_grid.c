@@ -15,6 +15,7 @@ int i, j;
 finalgrid = malloc(sizeof(int *) * height);
 if (finalgrid == NULL)
 {
+free(finalgrid);
 return (NULL);
 }
 else if (width <= 0 || height <= 0)
