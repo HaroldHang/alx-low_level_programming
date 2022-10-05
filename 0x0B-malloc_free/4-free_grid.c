@@ -14,7 +14,7 @@ int h, w;
 int widthSize;
 for (h = 0; h < height; h++)
 {
-widthSize = sizeof(grid[h]) / sizeof(int);
+widthSize = sizeof(grid[h]) / sizeof(int *);
 for (w = 0; w < widthSize; w++)
 {
 free(grid[h][w]);
