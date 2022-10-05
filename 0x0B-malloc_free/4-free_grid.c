@@ -10,14 +10,9 @@
  */
 void free_grid(int **grid, int height)
 {
-int h, w;
-int widthSize;
+int h;
 for (h = 0; h < height; h++)
 {
-widthSize = sizeof(grid[h]) / sizeof(int *);
-for (w = 0; w < widthSize; w++)
-{
-free(grid[h][w]);
-}
+free(grid[h]);
 }
 }
