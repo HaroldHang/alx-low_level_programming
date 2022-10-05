@@ -25,7 +25,7 @@ else
 {
 for (i = 0; i < height; i++)
 {
-finalgrid[0] = malloc(sizeof(int *) * width);
+finalgrid[0] = malloc(sizeof(int) * width);
 if (finalgrid[0] == NULL)
 {
 for (; i >= 0; i--)
