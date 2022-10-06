@@ -71,7 +71,7 @@ while (str[i] == ' ')
 {
 i++;
 }
-letters = word_len(str + index);
+letters = word_len(str + i);
 s[w] = malloc(sizeof(char) * (letters + 1));
 if (s[w] == NULL)
 {
