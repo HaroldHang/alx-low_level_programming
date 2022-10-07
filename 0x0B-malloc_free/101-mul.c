@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-int num, i, mul = 0;
+int num, i, mul = 1;
 if ((argc - 1) != 2)
 {
 printf("Error\n");
