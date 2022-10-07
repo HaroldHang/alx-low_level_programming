@@ -16,10 +16,10 @@ int *new_ptr;
 if (new_size == old_size)
 return (ptr);
 if (new_size == 0 && ptr != NULL)
+{
 free(prt);
 return (NULL)
 }
-
 if (ptr == NULL)
 {
 new_ptr = malloc(new_size);
@@ -32,5 +32,7 @@ if (new_ptr == NULL)
 return (NULL);
 
 return (new_ptr);
+}
+
 
 
