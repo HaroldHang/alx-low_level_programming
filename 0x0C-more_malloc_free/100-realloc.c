@@ -15,9 +15,9 @@ char *new_ptr;
 
 if (new_size == old_size)
 return (ptr);
-if (new_size == 0 && ptr != NULL)
+if (new_size == 0 && ptr)
 {
-free(prt);
+free(ptr);
 return (NULL)
 }
 if (ptr == NULL)
