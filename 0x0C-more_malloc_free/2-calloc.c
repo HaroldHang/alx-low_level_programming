@@ -6,12 +6,12 @@
  * @nmenb: number of element
  * @size: the size of an element
  *
- * Return: pointer to the concatanated string
+ * Return: pointer to the array
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 
-void *mem;
+char *mem;
 unsigned int i;
 if (nmemb == 0 || size == 0)
 return (NULL);
@@ -20,7 +20,7 @@ mem = malloc(nmemb * size);
 if (mem == NULL)
 return (NULL);
 
-for (i = 0; i < nmemb; i++)
+for (i = 0; i < nmemb * size; i++)
 {
 *(mem + i) = 0;
 }
