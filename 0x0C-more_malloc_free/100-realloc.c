@@ -18,7 +18,7 @@ return (ptr);
 if (new_size == 0 && ptr)
 {
 free(ptr);
-return (NULL)
+return (NULL);
 }
 if (ptr == NULL)
 {
