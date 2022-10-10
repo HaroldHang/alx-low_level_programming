@@ -10,11 +10,10 @@
  * Description: The dog with its characterisitcs
  */
 
-struct dog {
+struct dog
+{
 char *name,
 float age,
 char *owner
 }
-
-
 #endif
