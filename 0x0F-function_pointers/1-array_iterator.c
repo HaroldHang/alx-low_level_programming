@@ -13,7 +13,7 @@ if (array == NULL || size == NULL || action == NULL)
 {
 return;
 }
-for (int i = 0; i < size; i++)
+for (unsigned int i = 0; i < size; i++)
 {
 action(array[i]);
 }
