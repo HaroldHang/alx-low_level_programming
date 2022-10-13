@@ -6,6 +6,7 @@
  * print_numbers - print all numbers from argments
  * @separator: the separator of printing result
  * @n: the number of arguments
+ * @...: Other parameters
  * Return: printed numnbers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -17,15 +18,17 @@ return;
 
 va_list num;
 va_start(num, n);
+int number;
 for (unsigned int i = 0; i < n; i++)
 {
+number = va_arg(num, int);
 if (i == (n - 1))
 {
-printf("%d\n", va_arg(num, int));
+printf("%d\n", number);
 }
 else
 {
-printf("%d,", va_arg(num, int));
+printf("%d%s", number, separator);
 }
 }
 va_end(num);
