@@ -32,5 +32,4 @@ printf("%d%s", number, separator);
 }
 }
 va_end(num);
-
 }
