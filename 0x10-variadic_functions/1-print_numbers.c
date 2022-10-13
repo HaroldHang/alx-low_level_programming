@@ -15,11 +15,11 @@ if (separator == NULL)
 {
 return;
 }
-
+unsigned int i = 0;
 va_list num;
 va_start(num, n);
 int number;
-for (unsigned int i = 0; i < n; i++)
+for (; i < n; i++)
 {
 number = va_arg(num, int);
 if (i == (n - 1))
