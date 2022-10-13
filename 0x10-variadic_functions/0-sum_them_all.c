@@ -22,4 +22,3 @@ sum += va_arg(ptr, int);
 va_end(ptr);
 return (sum);
 }
-
