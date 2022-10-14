@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * print_numbers - print all numbers from argments
  * @separator: the separator of printing result
