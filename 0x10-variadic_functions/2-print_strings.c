@@ -3,23 +3,26 @@
 #include <stdio.h>
 
 /**
- * print_numbers - A function that print numbers followed by a new line.
+ * print_strings - A function that print strings followed by a new line.
  * @separator: An input string to be printed between numbers.
  * @n: number of parameters
  * @...: Other parameters
- * Return: The of all parameters
+ * Return: Nothing
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i = 0;
-	int number;
+	char *string;
 
 	va_start(ap, n);
 	for (; i < n; i++)
 	{
-		number = va_arg(ap, int);
-		printf("%d", number);
+		string = va_arg(ap, char*);
+		if (string == NULL)
+			printf("(nil)");
+		else
+			printf("%s", string);
 		if (separator == NULL)
 			continue;
 		if (i < n - 1)
