@@ -3,7 +3,7 @@
 
 
 /**
- * add_node_end - Add a note to the list
+ * free_listint - Add a note to the list
  * @head: The head of a linked list.
  * Return: Nothing
  */
@@ -18,9 +18,8 @@ void free_listint(listint_t *head)
     while (head->next != NULL)
     {
         temp = head->next;
-        free(head->n);
         free(head);
-        free_list(temp);
+        free_listint(temp);
     }
     free(head);
 }
