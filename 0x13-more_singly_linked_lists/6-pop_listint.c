@@ -1,7 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
 
-
 /**
  * pop_listint - Pop the first element to the list
  * @head: The head of a linked list.
