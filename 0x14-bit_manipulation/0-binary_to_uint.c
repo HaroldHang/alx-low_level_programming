@@ -1,36 +1,30 @@
 #include "main.h"
 
 /**
- * binary_to_uint - A function that sum the list
- * @b: The binary char
- * Return: the converted number
+ * binary_to_uint - A finction that converts binary number
+ * to an unsigned integer
+ * @b: A pointer to binary string
+ * Return: unsigned integer converted number
  */
 unsigned int binary_to_uint(const char *b)
-{   
-    if (b == NULL)
-    {
-        return (0);
-    }
-    unsigned int conv = 0;
-    int len;
-    while(b[len])
-    {
-        len++;
-    }
-    unsigned int bin = 1;
-    while (len)
-    {
-      if (b[len - 1] != '1' && b[len - 1] != '0')
-      {
-          return (0);
-      }
-      if (b[len - 1] == '1')
-      {
-          conv += 1 * bin;
-      }
-      bin *= 2;
-      len--;
-    }
-    return (conv);
-}
+{
+	unsigned int base = 1, result = 0, len = 0;
 
+	if (b == NULL)
+		return (0);
+
+	while (b[len])
+		len++;
+
+	while (len)
+	{
+		if (b[len - 1] != '0' && b[len - 1] != '1')
+			return (0);
+
+		if (b[len - 1] == '1')
+			result += base;
+		base *= 2;
+		len--;
+	}
+	return (result);
+}
