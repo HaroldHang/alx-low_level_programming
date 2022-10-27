@@ -8,7 +8,7 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {   
-    unsigned int flag = 0, max = 32768; 
+    unsigned int max = 32768; 
     unsigned int pos = 15;
 	
 	while (max)
@@ -30,7 +30,6 @@ int get_bit(unsigned long int n, unsigned int index)
             pos--;
         }
         
-		
         max >>= 1;
 	}
 }
