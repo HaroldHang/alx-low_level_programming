@@ -13,7 +13,10 @@ unsigned int binary_to_uint(const char *b)
     }
     unsigned int conv = 0;
     int len;
-    len = strlen(b);
+    while(b[len])
+    {
+        len++;
+    }
     unsigned int bin = 1;
     while (len)
     {
