@@ -8,11 +8,11 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {   
-    unsigned int max = 0x01;
+    unsigned long int max = 0x01;
     max <<= index;
     if (max == 0)
     return (-1);
-    n = n | max;
+    *n = *n | max;
     return (n);
 }
 
