@@ -3,6 +3,7 @@
 /**
  * add_dnodeint_end - Print the number of elements.
  * @h: The head of a doubled linked list.
+ * @n: value n of the new node to be added to the list
  * Return: the number of nodes
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
